@@ -13,7 +13,7 @@
             work: 'Software & Web Developer',
             mail: 'klajd.diko@gmail.com',
             linkedin: 'https://www.linkedin.com/in/klajddiko',
-            github: 'https://github.com/klajd"'
+            github: 'https://github.com/klajd',
         };
     }
 
