@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html data-ng-app="me">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>{{me.name}}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="styles.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" crossorigin="anonymous">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="common/common.js"></script>
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+		<section id="main">
+			<header>
+				<span class="avatar">
+					<img ng-src="{{me.avatar}}" alt="">
+				</span>
+				<h1>{{me.name}}</h1>
+				<p>{{me.work}}</p>
+			</header>
+			<footer>
+				<ul class="icons">
+					<!--<li>
+						<a href="{{me.ti}}" class="fa-twitter"></a>
+						<small>Twitter</small>
+					</li>-->
+					<li>
+						<a href="mailto:{{me.mail}}" class="fa-envelope-o"></a>
+						<small>Mail</small>
+					</li>
+					<li>
+						<a href="{{me.linkedin}}" class="fa-linkedin"></a>
+						<small>Linkedin</small>
+					</li>
+					<li>
+						<a href="{{me.github}}" class="fa-github"></a>
+						<small>Github</small>
+					</li>
+					<!--<li>
+						<a href="{{me.mail}}" class="fa-pencil"></a>
+						<small>Blog</small>
+					</li>-->
+				</ul>
+			</footer>
+		</section>
+
+		<footer id="footer">
+			<ul class="copyright">
+				<li>Copyright © 2016 {{me.name}}</li>
+				<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+			</ul>
+		</footer>
+
+	</div>
+
+	<!--<script type="text/javascript" async="" src="./Elliot Hesp_files/ga.js.download"></script><script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+<script type="text/javascript">
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-25215360-1']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+		</script>-->
+
+
+</body>
+
+</html>
