@@ -6,3 +6,4 @@
 - `Email` : klajd.diko@gmail.com
 - `LinkedIn` : https://www.linkedin.com/in/klajddiko
 - `GitHub` : https://github.com/klajd
+- `WebSite` : http://www.klajd.com
